@@ -1,0 +1,47 @@
+.container-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 50%;
+}
+.form-search-user {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.form-search-user button {
+    margin-top: 12px;
+    width: 100px;
+    height: 30px;
+    align-self: center;
+}
+.filter-repository {
+    margin-top: 12px;
+}
+.search-filter {
+    display: flex;
+    justify-content: center;
+}
+.search-filter input {
+    width: 80%;
+}
+.container-table-repository {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 12px;
+}
+.table-repository {
+    width: 80%;
+}
+.container-repos-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
+    margin-top: 4px;
+}
+.container-repos-data span {
+    border: 1px solid;
+    text-align: center;
+}
